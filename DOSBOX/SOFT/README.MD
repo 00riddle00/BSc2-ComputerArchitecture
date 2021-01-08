@@ -10,4 +10,3 @@ alt menu:
 * view exe file in Turbo Debugger
 `TASM\TD.EXE TURBO_C\OUT\EXAMPLE.EXE`
 
-
