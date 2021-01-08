@@ -15,6 +15,7 @@ D    8      0    0     - D    F      3    D
 ### (https://onlinedisassembler.com/odaweb/), arch=i8086
 ### the ODA dissasembled commands are different than that of TASM
 
+```
 D800: FADDS [BX+SI]
 D801: FADDS [BX+DI]
 D802: FADDS [BP+SI]
@@ -64,6 +65,7 @@ D828: FSUBRS [BX+SI]
 
 ...
 ...
+```
 
 ## mod = 00, r/m = 110 (+2 bytes direct address)
 <pre>
@@ -74,6 +76,7 @@ D    8      0    6     - D    F      3    E
 
 ### Data from ODA
 
+```
 D806: FADDS  [DIRECT_ADDRESS]
 D80E: FMULS  [DIRECT_ADDRESS]
 D816: FCOMS  [DIRECT_ADDRESS]
@@ -82,6 +85,7 @@ D826: FSUBS  [DIRECT_ADDRESS]
 ...
 ...
 ...
+```
 
 ## mod = 00, r/m > 110
 <pre>
@@ -92,7 +96,9 @@ D    F      3    F
 
 ### Data from ODA
 
+```
 FISTPLL [BX]
+```
 
 # mod = 01 (+1 byte offset)
 <pre>
@@ -103,9 +109,11 @@ D    8      4    0       D    F      7    F
 
 ### Data from ODA
 
+```
 D840: FADDS [BX+SI+offset_1_byte]
 ...
 ...
+```
  
 # mod = 10 (+2 bytes offset)
 <pre>
@@ -116,9 +124,11 @@ D    8      8    0       D    F      B    F
 
 ### Data from ODA
 
+```
 D880: FADDS [BX+SI+offset_2_bytes]
 ...
 ...
+```
 
 # mod = 11
 <pre>
@@ -127,6 +137,8 @@ D    8      C    0     - D    F      F    F
 55,488                 - 57,343
 </pre>
 
+```
 D8C0: FADD ST, ST(0)
 ...
 ...
+```
