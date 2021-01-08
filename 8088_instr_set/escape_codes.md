@@ -1,6 +1,8 @@
 # This file is a draft for trying to make sense of ESC codes
 
+```
 1101 1 xxx mod yyy r/m [offset]  | ESC command, register/memory
+```
 
 # mod = 00
 
