@@ -1,10 +1,10 @@
 ### Examples
 
-* edit .c/.cpp file in Borland Turbo C++:
+* edit .c/.cpp file in Borland Turbo C++:  
 `TURBO_C\BIN\TC.EXE TURBO_C\SRC\EXAMPLE.CPP`  
 * ALT menu usage:
-  - Compile->Compile
-  - Compile->Link
+  - Compile -> Compile
+  - Compile -> Link
 
-* view exe file in Turbo Debugger
+* view exe file in Turbo Debugger:  
 `TASM\TD.EXE TURBO_C\OUT\EXAMPLE.EXE`
