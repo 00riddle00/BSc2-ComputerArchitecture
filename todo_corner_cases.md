@@ -1,7 +1,7 @@
 ## Handling corner cases (todo list)
 
-[see table (part 1)](8088_instr_set/i8088_instr_set_1.png)  
-[see table (part 2)](8088_instr_set/i8088_instr_set_2.png)
+[See table (part 1)](8088_instr_set/i8088_instr_set_1.png)  
+[See table (part 2)](8088_instr_set/i8088_instr_set_2.png)
 
 ### CASE_1 (todo)
 ```
