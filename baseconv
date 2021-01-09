@@ -1,0 +1,13 @@
+#!/usr/bin/perl
+# a script to quickly convert between bases
+
+# uncomment only one of these
+#$num = 0b1000 0000 1111; 
+#$num = oct(333);          # do not put leading zeroes
+#$num = hex('7F');         # put in quotes, ie. hex('FFFF')
+#$num = 401;
+
+printf "bin: %b\n", $num;
+printf "oct: %o\n", $num;
+printf "hex: %X\n", $num;
+printf "dec: %d\n", $num;
