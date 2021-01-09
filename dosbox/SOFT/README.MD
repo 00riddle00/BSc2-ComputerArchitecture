@@ -2,7 +2,7 @@
 ### examples
 
 * edit .c/.cpp file in Borland Turbo C++:
-`TURBO_C\BIN\TC.EXE TURBO_C\SRC\EXAMPLE.CPP`
+`TURBO_C\BIN\TC.EXE TURBO_C\SRC\EXAMPLE.CPP`  
 alt menu:
   * Compile->Compile
   * Compile->Link
